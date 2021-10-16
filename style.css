@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+:root{
+    --color0: #ffba82;
+    --color1: #FFA052;
+    --color2: #FF7705;
+    --color3: #CC5E04;
+    font: normal 16px 'Roboto', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    text-indent: 15px;
+    text-align: justify;
+}
+body{
+    background-color: var(--color0);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--color1), var(--color2));
+    color: white;
+    padding: 16px;
+    padding-bottom: 6px;
+}
+header > h1{
+    font-family: 'Luckiest Guy', cursive;
+    margin-bottom: 10px;
+    text-align: center;
+}
+header > p{
+    text-indent: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header > nav{
+    color: white;
+}
+nav > a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background .2s;
+}
+nav > a:hover{
+    background-color: var(--color1);
+}
+main{
+    margin: auto;
+    max-width: 1000px;
+}
+ol{
+    list-style-position: inside;
+}
+ol > img{
+    width: 80%;
+    margin-left: 10%;
+}
+main{
+    background-color: white;
+    padding: 12px;
+    border-radius: 0px 0px 5px 5px;
+}
+ol > li{
+    font: normal 20px 'Carter One', cursive;
+    background-image: linear-gradient(to right, #ffaa65, var(--color0) 90%);
+    margin: 15px 0;
+    padding-left: 8px;
+}
+ol > strong{
+    font: normal 30px 'Kalam', cursive;
+    font-style: italic;
+    color: #26ca5e;
+    display: block;
+    text-align: center;
+}
+ol > p{
+    padding: 6px;
+}
+p > strong{
+    color: #26ca5e;
+}
+.video{
+    background-color: var(--color2);
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 50%;
+}
+.video > iframe{
+    position: absolute;
+    width: 79.7%;
+    height: 90%;
+    margin-top: 10px;
+}
+aside{
+    margin: auto;
+    max-width: 1000px;
+    background-color: #fccca5;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+aside > h3{
+    background-color: var(--color1);
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+}
+aside > section{
+    padding: 12px;
+}
+section > ul{
+    columns: 2;
+}
+ul > li{
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+main > p:last-child{
+    text-align: center;
+}
+footer{
+    background-color: var(--color3);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
